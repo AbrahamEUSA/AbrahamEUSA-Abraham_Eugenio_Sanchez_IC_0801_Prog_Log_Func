@@ -17,7 +17,7 @@ public class Principal {
        
         
 	Principal.miMetodo(pe);//tengo duda ya que con esta linea imprime 9
-        Principal.miMetodo((a1,  a2,  a3)->System.out.println("7- :"+(a1 + ((double)a2 / a3))));
+        Principal.miMetodo((a1,  a2,  a3)->System.out.println("7- :"+(a1 + (a2 / a3))));
         pe=((a1,  a2,  a3)->System.out.println("8- :"+(a1 + ((double)a2 / a3))));
         miMetodo(pe,2,2,2); 
         }
