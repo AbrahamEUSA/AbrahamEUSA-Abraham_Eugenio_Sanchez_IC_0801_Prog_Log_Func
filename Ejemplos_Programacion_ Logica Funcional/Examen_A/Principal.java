@@ -12,10 +12,19 @@ public class Principal {
         pe.mensajeHola();
         
         pe = (a1,a2,a3) ->  System.out.println("5- :"+(a1 + (a2 * a3)) );
+<<<<<<< HEAD
       	pe.operacionPrueba(5,PruebaExamen.operacionPrueba(1, 1),PruebaExamen.operacionPrueba( 2,2));
         Principal.miMetodo(pe);//tengo duda ya que con esta linea imprime 9
         Principal.miMetodo((a1,  a2,  a3)->System.out.println("7- :"+(a1 + (a2 / a3))));
 
+=======
+	   
+      	pe.operacionPrueba(1,PruebaExamen.operacionPrueba(1, 2),PruebaExamen.operacionPrueba( 1,2));
+       
+        
+	Principal.miMetodo(pe);//tengo duda ya que con esta linea imprime 9
+        Principal.miMetodo((a1,  a2,  a3)->System.out.println("7- :"+(a1 + (a2 / a3))));
+>>>>>>> 328c66a7e071e0e08652ce3aab4379112032f51d
         pe=((a1,  a2,  a3)->System.out.println("8- :"+(a1 + ((double)a2 / a3))));
         miMetodo(pe,5,1,2); 
         }
